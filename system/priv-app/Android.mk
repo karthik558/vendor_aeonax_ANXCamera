@@ -1,9 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MiuiCamera
+LOCAL_MODULE := ANXCamera
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := MiuiCamera/MiuiCamera.apk
+LOCAL_SRC_FILES := ANXCamera/ANXCamera.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_CLASS := APPS
