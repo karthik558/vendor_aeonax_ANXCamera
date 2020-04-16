@@ -16,7 +16,9 @@ VENDOR_PATH := vendor/ANXCamera
 
 PRODUCT_COPY_FILES += \
 	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc,system/etc) \
-   	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/priv-app/ANXCamera/lib/arm64,system/priv-app/ANXCamera/lib/arm64)
+   	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/priv-app/ANXCamera/lib/arm64,system/priv-app/ANXCamera/lib/arm64) \
+	$(VENDOR_PATH)/init/anxfilecheck.sh:system/bin/anxfilecheck.sh \
+	$(VENDOR_PATH)/init/anxcamera.rc:system/etc/init/anxcamera.rc
 
 PRODUCT_PACKAGES += \
     ANXCamera
