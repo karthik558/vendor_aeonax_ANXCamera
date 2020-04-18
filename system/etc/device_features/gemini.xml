@@ -34,6 +34,10 @@
     <bool name="support_interview_record_param">true</bool>
     <!--whether the device supports stereo record-->
     <bool name="support_stereo_record">true</bool>
+    <!--whether the device supports screenrecorder inner-sound recorder mode-->
+    <integer name="support_inner_record">0</integer>
+    <!--whether the device supports screenrecorder a2dp inner-sound recorder-->
+    <bool name="support_a2dp_inner_record">false</bool>
     <!--whether the device supports screen paper mode-->
     <bool name="support_screen_paper_mode">true</bool>
     <!--whether the device supports screen key position swap-->
@@ -272,6 +276,7 @@
         <item>com.xiaomi.midrop</item>
         <item>com.android.midrive</item>
         <item>com.xiaomi.drivemode</item>
+        <item>com.miui.smarttravel</item>
     </string-array>
     <!--system data-app path list -->
     <string-array name="system_data_path_list">
@@ -293,6 +298,7 @@
         <item>/system/data-app/MiDrop/MiDrop.apk</item>
         <item>/system/data-app/MiDrive/MiDrive.apk</item>
         <item>/system/data-app/MiuiDriveMode/MiuiDriveMode.apk</item>
+        <item>/system/data-app/SmartTravel/SmartTravel.apk</item>
     </string-array>
     <bool name="support_audio_loopback">true</bool>
     <bool name="support_new_silentmode">true</bool>
