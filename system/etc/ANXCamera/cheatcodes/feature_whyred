@@ -6,5 +6,19 @@
   "s_s_m_t": true,
   "s_c_d_l_s": true,
   "s_c_w_m": true,
-  "s_a_o_w": true
+  "s_a_o_w": true,
+  "c_22367_0x0000": true,
+  "s_b_a": true,
+  "c_35893_0x0002": true,
+  "c_0x00_s_l_s": true,
+  "c_36658_0x0001": true,
+  "c_r_i_m_m": true,
+  "c_16001_0x0001": true,
+  "c_16001_0x0002": false,
+  "c_0x14": true,
+  "o_0x06_is_support_peaking_mf": true,
+  "s_v_b": true,
+  "s_f_a": true,
+  "c_0x1a": true,
+  "c_0x5e": true
 }
