@@ -12,3 +12,6 @@ if [ ! -f "/sdcard/.ANXCamera/.check" ]; then
     cp -R /product/etc/device_features/* /sdcard/.ANXCamera/features_reference/
     touch /sdcard/.ANXCamera/.check
 fi
+if [ ! -d "/sdcard/MIUI/debug_log" ]; then
+    mkdir -p /sdcard/MIUI/debug_log
+fi
