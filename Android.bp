@@ -5,23 +5,42 @@ android_app_import {
 	name: "ANXCamera",
 	overrides: ["Snap", "Camera2"],
 	owner: "ANXCamera",
-	apk: "proprietary/product/priv-app/ANXCamera/ANXCamera.apk",
+	apk: "proprietary/system/priv-app/ANXCamera/ANXCamera.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
 }
 
 android_app_import {
         name: "ANXExtraPhoto",
         owner: "ANXExtraPhoto",
-        apk: "proprietary/product/priv-app/ANXExtraPhoto/ANXExtraPhoto.apk",
+        apk: "proprietary/system/priv-app/ANXExtraPhoto/ANXExtraPhoto.apk",
         certificate: "platform",
         dex_preopt: {
                 enabled: false,
         },
         privileged: true,
-        product_specific: true,
+}
+
+android_app_import {
+        name: "ANXScanner",
+        owner: "ANXScanner",
+        apk: "proprietary/system/priv-app/ANXScanner/ANXScanner.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
+android_app_import {
+        name: "anxres",
+        owner: "anxres",
+        apk: "proprietary/system/app/anxres/anxres.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
 }
